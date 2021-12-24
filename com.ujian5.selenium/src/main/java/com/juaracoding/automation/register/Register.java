@@ -114,7 +114,7 @@ public class Register {
 	WebDriverWait wait = new WebDriverWait(driver, 30);
 	wait.until(ExpectedConditions.elementToBeClickable(btnSignIn));
 	btnSignIn.click();	
-	txtboxEmail.sendKeys("grotleuser38@gmail.com");	
+	txtboxEmail.sendKeys("grotleuser41@gmail.com");	
 	txtboxEmail.submit();	
 	}
 	
@@ -147,10 +147,6 @@ public class Register {
 	txtboxPhoneMobile.sendKeys("00011122334");
 	btnRegister.click();
 	}
-	public void Account() {
-		
-	}
-	
 	
 	
 }
